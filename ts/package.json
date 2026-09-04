@@ -1,0 +1,14 @@
+{
+  "name": "@hop-top/aim",
+  "version": "0.1.0-alpha.1",
+  "type": "module",
+  "exports": "./src/index.ts",
+  "scripts": {
+    "test": "node --experimental-strip-types --test src/query_vectors.test.ts",
+    "lint": "tsc --noEmit -p tsconfig.json"
+  },
+  "devDependencies": {
+    "@types/node": "^26.4.0",
+    "typescript": "^7.0.2"
+  }
+}
